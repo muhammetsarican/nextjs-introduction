@@ -2,7 +2,7 @@ import Link from "next/link"
 const Navbar = () => (
     <div>
         <Link href="/"><a>Home</a></Link>
-        &nbsp;
+        &nbsp; <u>|</u> &nbsp;
         <Link href="/users" as={"/kullanicilar"}><a>Users</a></Link>
     </div>
 )
