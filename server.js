@@ -12,12 +12,6 @@ app.prepare().then(() => {
 	// Custom routes go here
 	server.get('/user/:name', (req, res) => {
 		const mergedQuery = Object.assign({}, req.query, req.params);
-		console.log({
-			mergedQuery,
-			query:req.query,
-			params:req.params
-
-		})
 		return app.render(req, res, '/user', mergedQuery);
 	});
 
