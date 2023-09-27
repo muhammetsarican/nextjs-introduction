@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "express": "node server.js",
+    "express:env": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "next": "^12.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

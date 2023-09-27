@@ -1,9 +1,12 @@
+import Layout from "../components/layout"
 import UserList from "../components/userlist"
 const UserPage = () => (
-    <div>
-        User Page
-        <UserList />
-    </div>
+    <Layout>
+        <div>
+            User Page
+            <UserList />
+        </div>
+    </Layout>
 )
 
 export default UserPage
